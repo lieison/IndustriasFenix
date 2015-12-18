@@ -1,0 +1,25 @@
+/*--------------------------------------------------------------
+Search
+--------------------------------------------------------------*/
+.uw_search_widget form {
+	display: block;
+}
+
+.uw_search_widget form .uw-field {
+	float: left;
+	width: 65%;
+	border-right-width: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.uw_search_widget form .uw-submit {
+	float: right;
+	width: 35%;
+	height: 40px;
+	font-size: 11px;
+	letter-spacing: 0.5px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	text-transform: uppercase;
+}

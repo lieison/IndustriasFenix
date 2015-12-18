@@ -1,0 +1,174 @@
+/*--------------------------------------------------------------
+Posts Thumbnails
+--------------------------------------------------------------*/
+.uw-recent-posts-thumb-grid li {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.uw-recent-posts-thumb-grid li a,
+.uw-recent-posts-thumb-grid li img {
+    display: block;
+    width: auto;
+}
+
+.uw-recent-posts-thumb-grid li img:hover {
+    opacity: 0.8;
+}
+
+.uw-widget-recent-posts-li {
+    position: relative;
+    margin-top: 15px !important;
+    padding-top: 15px !important;
+    padding-bottom: 0 !important;
+    border-bottom: 0 !important;
+    overflow: hidden;
+}
+
+.uw-widget-recent-posts-li:first-child {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.uw-widget-recent-posts-thumbnail {
+    float: left;
+    margin-right: 10px;
+    padding: 0;
+    border: 0;
+}
+
+.uw-widget-recent-posts-thumbnail,
+.uw-widget-recent-posts-thumbnail img {
+    display: block;
+}
+
+.uw-widget-recent-posts-thumbnail:hover {
+    opacity: 0.7;
+}
+
+.uw-widget-recent-posts-title {
+    font-size: 13px;
+    font-weight: bold;
+    font-weight: 600;
+    padding: 0;
+}
+
+.uw-widget-info-wrap {
+    display: block;
+}
+
+.uw-widget-recent-posts-date,
+.uw-widget-recent-posts-comments {
+    display: inline-block;
+    color: #777;
+}
+
+.uw-widget-recent-posts-date i,
+.uw-widget-recent-posts-comments i {
+    margin-right: 4px;
+}
+
+.uw-widget-recent-posts-date {
+    font-size: 13px;
+    font-weight: 400;
+    margin-right: 8px;
+}
+
+.uw-widget-recent-posts-date {
+    margin-top: 5px;
+    line-height: 13px;
+}
+
+.uw-widget-recent-posts-comments a {
+    display: inline-block;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.uw-widget-recent-posts-comments a:before {
+    display: none;
+}
+
+.uw-widget-recent-posts.style-fullimg .uw-widget-recent-posts-thumbnail,
+.uw-widget-recent-posts.style-fullinfoinside .uw-widget-recent-posts-thumbnail {
+    float: none;
+    position: relative;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px;
+}
+
+.uw-widget-recent-posts.style-fullinfoinside .uw-widget-recent-posts-li {
+    display: block;
+    padding: 0 !important;
+}
+
+.uw-widget-recent-posts.style-fullinfoinside .uw-widget-recent-posts-li .uw-fullinfo-wrap {
+    display: inline-block;
+    position: relative;
+}
+
+.uw-widget-recent-posts.style-fullinfoinside .uw-widget-recent-posts-thumbnail {
+    margin-bottom: 0;
+}
+
+.uw-widget-recent-posts.style-fullinfoinside .uw-widget-info-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    margin: 0;
+    padding: 8px 10px 18px;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0.65)), color-stop(100%, rgba(0,0,0,0)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%);
+    background: -o-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+    text-align: left;
+}
+
+.uw-widget-recent-posts.style-fullinfoinside .uw-widget-recent-posts-comments {
+    float: right;
+}
+
+.uw-widget-recent-posts.style-fullinfoinside .uw-widget-recent-posts-date,
+.uw-widget-recent-posts.style-fullinfoinside .uw-widget-recent-posts-comments,
+.uw-widget-recent-posts.style-fullinfoinside .uw-widget-recent-posts-comments a,
+.uw-widget-recent-posts.style-fullinfoinside .uw-widget-recent-posts-title {
+    color: #e8e8e8 !important;
+}
+
+.uw-widget-recent-posts.style-fullinfoinside .uw-widget-recent-posts-comments:hover,
+.uw-widget-recent-posts.style-fullinfoinside .uw-widget-recent-posts-comments a:hover,
+.uw-widget-recent-posts.style-fullinfoinside .uw-widget-recent-posts-title:hover {
+    color: #fff !important;
+}
+
+.uw-widget-recent-posts.style-fullinfoinside .uw-widget-recent-posts-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 13px;
+    line-height: normal;
+    text-shadow: 0 1px 0 rgba(0,0,0,.77);
+    width: 100%;
+    z-index: 1;
+    margin: 0;
+    padding: 28px 10px 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: -moz-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,0.65)));
+    background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+    background: -o-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+    background: -ms-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000',endColorstr='#000000',GradientType=0);
+    text-align: left;
+}

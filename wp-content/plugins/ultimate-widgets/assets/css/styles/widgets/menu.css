@@ -1,0 +1,86 @@
+/*--------------------------------------------------------------
+Menu
+--------------------------------------------------------------*/
+.uw_menu_widget > ul {
+	display: block;
+	overflow: hidden;
+}
+
+.uw_menu_widget ul li {
+	position: relative;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.uw_menu_widget ul li:last-child {
+	border-bottom: 0;
+}
+
+.uw_menu_widget ul li a {
+	display: block;
+	padding: 12px 25px 12px 0;
+	font-size: 13px;
+	line-height: 1;
+	font-weight: 600;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.uw_menu_widget li .uw-sub-icon {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 20px;
+	color: #aaa;
+	font-size: 13px;
+	line-height: 37px;
+	cursor: pointer;
+	text-align: right;
+	z-index: 10;
+}
+
+.uw_menu_widget li .uw-sub-icon:hover {
+	color: #4dbefa;
+}
+
+.uw_menu_widget li.open-sub > .uw-sub-icon i.icon_plus,
+.uw_menu_widget li > .uw-sub-icon i.icon_close {
+	display: none;
+}
+
+.uw_menu_widget li.open-sub > .uw-sub-icon i.icon_close {
+	display: inline-block;
+}
+
+.uw_menu_widget .uw-sub-menu {
+	display: none;
+	padding-left: 20px;
+}
+
+.uw_menu_widget .uw-sub-menu ul ul ul {
+	padding-left: 0;
+}
+
+.uw_menu_widget .uw-sub-menu li:last-child {
+	border-bottom: 0;
+}
+
+.uw_menu_widget .uw-sub-menu li a {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.uw_menu_widget .uw-sub-menu li .uw-sub-icon {
+	font-size: 12px;
+	line-height: 36px;
+}
+
+.uw_menu_widget .uw-sub-menu li a:before {
+	content: "-";
+	margin-right: 10px;
+}
+
+.uw_menu_widget .uw-sub-menu .uw-sub-menu li a:before {
+  content: "- -";
+  margin-right: 10px;
+}

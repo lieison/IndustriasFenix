@@ -1,0 +1,47 @@
+/*--------------------------------------------------------------
+Twitter
+--------------------------------------------------------------*/
+/*expand style*/
+.uw_twitter_widget iframe {
+    display: block !important;
+    margin: 0 auto !important;
+    max-width: 520px !important;
+}
+
+/*simple style*/
+#uw_jtwt {
+    list-style: none;
+}
+
+#uw_jtwt .uw_jtwt_tweet {
+    position: relative;
+    color: #838383;
+    border-bottom: 1px solid #eee;
+    font-size: 13px;
+    line-height: 20px;
+    padding-bottom: 12px;
+    padding-left: 45px;
+    margin-bottom: 12px;
+}
+
+#uw_jtwt .uw_jtwt_tweet:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#uw_jtwt .uw_jtwt_tweet:before {
+    position: absolute;
+    top: 6px;
+    margin-left: -45px;
+    content: '\f099';
+    font-family: 'FontAwesome';
+    color: #33ccff;
+    text-shadow: 1px -1px #089ccd, 1px 1px rgba(255,255,255,0.5);
+    font-size: 30px;
+}
+
+#uw_jtwt .uw_jtwt_tweet .uw_jtwt_tweet_text {
+    margin-bottom: 0;
+    margin-top: 0;
+}

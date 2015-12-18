@@ -1,0 +1,277 @@
+/*--------------------------------------------------------------
+Social
+--------------------------------------------------------------*/
+.uw-social-widget {
+	display: inline-block;
+    list-style: none;
+}
+
+.uw-social-widget li {
+    display: inline-block;
+	margin: 3px;
+	padding: 0 !important;
+}
+
+.uw-social-widget li a,
+.uw-social-widget li a:hover {
+    color: #fff;
+}
+
+.uw-social-widget li a {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    width: 73px;
+    height: 73px;
+    line-height: 73px;
+    font-size: 22px;
+    padding: 0;
+    text-align: center;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+.uw-social-widget li a:hover {
+    background-color: #666;
+    color: #fff;
+}
+
+/*light style*/
+.uw-social-widget.uw-social-light li a {
+    background: transparent;
+    color: #bbb !important;
+    border: 1px solid #ddd;
+}
+/*behance*/
+.uw-social-widget.uw-social-light li.social-widget-behance a:hover { color: #005CFF !important; border-color: #005CFF; }
+/*codepen*/
+.uw-social-widget.uw-social-light li.social-widget-codepen a:hover { color: #4d4d4d !important; border-color: #4d4d4d; }
+/*deviantart*/
+.uw-social-widget.uw-social-light li.social-widget-deviantart a:hover { color: #506256 !important; border-color: #506256; }
+/*dribbble*/
+.uw-social-widget.uw-social-light li.social-widget-dribbble a:hover { color: #fa4086 !important; border-color: #fa4086; }
+/*facebook*/
+.uw-social-widget.uw-social-light li.social-widget-facebook a:hover { color: #37589b !important; border-color: #37589b; }
+/*flickr*/
+.uw-social-widget.uw-social-light li.social-widget-flickr a:hover { color: #fa4086 !important; border-color: #fa4086; }
+/*github*/
+.uw-social-widget.uw-social-light li.social-widget-github a:hover { color: #60b044 !important; border-color: #60b044; }
+/*google*/
+.uw-social-widget.uw-social-light li.social-widget-google-plus a:hover { color: #de5a49 !important; border-color: #de5a49; }
+/*instagram*/
+.uw-social-widget.uw-social-light li.social-widget-instagram a:hover { color: #3F729B !important; border-color: #3F729B; }
+/*linkedin*/
+.uw-social-widget.uw-social-light li.social-widget-linkedin a:hover { color: #3399CC !important; border-color: #3399CC; }
+/*pinterest*/
+.uw-social-widget.uw-social-light li.social-widget-pinterest a:hover { color: #CB2027 !important; border-color: #CB2027; }
+/*tumblr*/
+.uw-social-widget.uw-social-light li.social-widget-tumblr a:hover { color: #2C4762 !important; border-color: #2C4762; }
+/*twitter*/
+.uw-social-widget.uw-social-light li.social-widget-twitter a:hover { color: #46d4fe !important; border-color: #46d4fe; }
+/*skype*/
+.uw-social-widget.uw-social-light li.social-widget-skype a:hover { color: #00AFF0 !important; border-color: #00AFF0; }
+/*stack overflow*/
+.uw-social-widget.uw-social-light li.social-widget-stack-overflow a:hover { color: #fe7a15 !important; border-color: #fe7a15; }
+/*soundcloud*/
+.uw-social-widget.uw-social-light li.social-widget-soundcloud a:hover { color: #F76700 !important; border-color: #F76700; }
+/*youtube*/
+.uw-social-widget.uw-social-light li.social-widget-youtube-play a:hover { color: #C4302B !important; border-color: #C4302B; }
+/*reddit*/
+.uw-social-widget.uw-social-light li.social-widget-reddit a:hover { color: #ff4500 !important; border-color: #ff4500; }
+/*rss*/
+.uw-social-widget.uw-social-light li.social-widget-rss a:hover { color: #ff7900 !important; border-color: #ff7900; }
+/*vimeo*/
+.uw-social-widget.uw-social-light li.social-widget-vimeo-square a:hover { color: #1ab7ea !important; border-color: #1ab7ea; }
+/*vine*/
+.uw-social-widget.uw-social-light li.social-widget-vine a:hover { color: #00bf8f !important; border-color: #00bf8f; }
+
+/*color style*/
+.uw-social-widget.uw-social-color li a,
+.uw-social-widget.uw-social-3d li a {
+    color: #fff !important;
+}
+/*behance*/
+.uw-social-widget.uw-social-color li.social-widget-behance a,
+.uw-social-widget.uw-social-3d li.social-widget-behance a { background: #005CFF; }
+.uw-social-widget.uw-social-color li.social-widget-behance a:hover,
+.uw-social-widget.uw-social-3d li.social-widget-behance a:hover { background: #4387ff; }
+/*codepen*/
+.uw-social-widget.uw-social-color li.social-widget-codepen a,
+.uw-social-widget.uw-social-3d li.social-widget-codepen a { background: #4d4d4d; }
+.uw-social-widget.uw-social-color li.social-widget-codepen a:hover,
+.uw-social-widget.uw-social-3d li.social-widget-codepen a:hover { background: #7a7a7a; }
+/*deviantart*/
+.uw-social-widget.uw-social-color li.social-widget-deviantart a,
+.uw-social-widget.uw-social-3d li.social-widget-deviantart a { background: #506256; }
+.uw-social-widget.uw-social-color li.social-widget-deviantart a:hover,
+.uw-social-widget.uw-social-3d li.social-widget-deviantart a:hover { background: #7e9e89; }
+/*dribbble*/
+.uw-social-widget.uw-social-color li.social-widget-dribbble a,
+.uw-social-widget.uw-social-3d li.social-widget-dribbble a { background: #fa4086; }
+.uw-social-widget.uw-social-color li.social-widget-dribbble a:hover,
+.uw-social-widget.uw-social-3d li.social-widget-dribbble a:hover { background: #ff6ba3; }
+/*facebook*/
+.uw-social-widget.uw-social-color li.social-widget-facebook a,
+.uw-social-widget.uw-social-3d li.social-widget-facebook a { background-color: #37589b; }
+.uw-social-widget.uw-social-color li.social-widget-facebook a:hover,
+.uw-social-widget.uw-social-3d li.social-widget-facebook a:hover { background-color: #4e7ddd; }
+/*flickr*/
+.uw-social-widget.uw-social-color li.social-widget-flickr a,
+.uw-social-widget.uw-social-3d li.social-widget-flickr a { background: #fa4086; }
+.uw-social-widget.uw-social-color li.social-widget-flickr a:hover,
+.uw-social-widget.uw-social-3d li.social-widget-flickr a:hover { background: #ff6ba3; }
+/*github*/
+.uw-social-widget.uw-social-color li.social-widget-github a,
+.uw-social-widget.uw-social-3d li.social-widget-github a { background: #60b044; }
+.uw-social-widget.uw-social-color li.social-widget-github a:hover,
+.uw-social-widget.uw-social-3d li.social-widget-github a:hover { background: #6ccf4a; }
+/*google*/
+.uw-social-widget.uw-social-color li.social-widget-google-plus a,
+.uw-social-widget.uw-social-3d li.social-widget-google-plus a { background-color: #de5a49; }
+.uw-social-widget.uw-social-color li.social-widget-google-plus a:hover,
+.uw-social-widget.uw-social-3d li.social-widget-google-plus a:hover { background-color: #fc7a69; }
+/*instagram*/
+.uw-social-widget.uw-social-color li.social-widget-instagram a,
+.uw-social-widget.uw-social-3d li.social-widget-instagram a { background: #3F729B; }
+.uw-social-widget.uw-social-color li.social-widget-instagram a:hover,
+.uw-social-widget.uw-social-3d li.social-widget-instagram a:hover { background: #4b8dc2; }
+/*linkedin*/
+.uw-social-widget.uw-social-color li.social-widget-linkedin a,
+.uw-social-widget.uw-social-3d li.social-widget-linkedin a { background: #3399CC; }
+.uw-social-widget.uw-social-color li.social-widget-linkedin a:hover,
+.uw-social-widget.uw-social-3d li.social-widget-linkedin a:hover { background: #50b3e4; }
+/*pinterest*/
+.uw-social-widget.uw-social-color li.social-widget-pinterest a,
+.uw-social-widget.uw-social-3d li.social-widget-pinterest a {background: #CB2027;}
+.uw-social-widget.uw-social-color li.social-widget-pinterest a:hover,
+.uw-social-widget.uw-social-3d li.social-widget-pinterest a:hover {background: #fe575e;}
+/*tumblr*/
+.uw-social-widget.uw-social-color li.social-widget-tumblr a,
+.uw-social-widget.uw-social-3d li.social-widget-tumblr a { background: #2C4762; }
+.uw-social-widget.uw-social-color li.social-widget-tumblr a:hover,
+.uw-social-widget.uw-social-3d li.social-widget-tumblr a:hover { background: #3f70a0; }
+/*twitter*/
+.uw-social-widget.uw-social-color li.social-widget-twitter a,
+.uw-social-widget.uw-social-3d li.social-widget-twitter a { background-color: #46d4fe; }
+.uw-social-widget.uw-social-color li.social-widget-twitter a:hover,
+.uw-social-widget.uw-social-3d li.social-widget-twitter a:hover { background-color: #7ee1fe; }
+/*skype*/
+.uw-social-widget.uw-social-color li.social-widget-skype a,
+.uw-social-widget.uw-social-3d li.social-widget-skype a { background: #00AFF0; }
+.uw-social-widget.uw-social-color li.social-widget-skype a:hover,
+.uw-social-widget.uw-social-3d li.social-widget-skype a:hover { background: #39c5f9; }
+/*stack overflow*/
+.uw-social-widget.uw-social-color li.social-widget-stack-overflow a,
+.uw-social-widget.uw-social-3d li.social-widget-stack-overflow a { background: #fe7a15; }
+.uw-social-widget.uw-social-color li.social-widget-stack-overflow a:hover,
+.uw-social-widget.uw-social-3d li.social-widget-stack-overflow a:hover { background: #fd9342; }
+/*soundcloud*/
+.uw-social-widget.uw-social-color li.social-widget-soundcloud a,
+.uw-social-widget.uw-social-3d li.social-widget-soundcloud a { background: #F76700; }
+.uw-social-widget.uw-social-color li.social-widget-soundcloud a:hover,
+.uw-social-widget.uw-social-3d li.social-widget-soundcloud a:hover { background: #ff9041; }
+/*youtube*/
+.uw-social-widget.uw-social-color li.social-widget-youtube-play a,
+.uw-social-widget.uw-social-3d li.social-widget-youtube-play a { background: #C4302B; }
+.uw-social-widget.uw-social-color li.social-widget-youtube-play a:hover,
+.uw-social-widget.uw-social-3d li.social-widget-youtube-play a:hover { background: #f85651; }
+/*reddit*/
+.uw-social-widget.uw-social-color li.social-widget-reddit a,
+.uw-social-widget.uw-social-3d li.social-widget-reddit a { background: #ff4500; }
+.uw-social-widget.uw-social-color li.social-widget-reddit a:hover,
+.uw-social-widget.uw-social-3d li.social-widget-reddit a:hover { background: #ff8558; }
+/*rss*/
+.uw-social-widget.uw-social-color li.social-widget-rss a,
+.uw-social-widget.uw-social-3d li.social-widget-rss a { background-color: #ff7900; }
+.uw-social-widget.uw-social-color li.social-widget-rss a:hover,
+.uw-social-widget.uw-social-3d li.social-widget-rss a:hover { background-color: #ff9e46; }
+/*vimeo*/
+.uw-social-widget.uw-social-color li.social-widget-vimeo-square a,
+.uw-social-widget.uw-social-3d li.social-widget-vimeo-square a { background: #1ab7ea; }
+.uw-social-widget.uw-social-color li.social-widget-vimeo-square a:hover,
+.uw-social-widget.uw-social-3d li.social-widget-vimeo-square a:hover { background: #39ceff; }
+/*vine*/
+.uw-social-widget.uw-social-color li.social-widget-vine a,
+.uw-social-widget.uw-social-3d li.social-widget-vine a { background: #00bf8f; }
+.uw-social-widget.uw-social-color li.social-widget-vine a:hover,
+.uw-social-widget.uw-social-3d li.social-widget-vine a:hover { background: #11e3ae; }
+
+/*3d style*/
+.uw-social-widget.uw-social-3d li a {
+	text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: inset -1px -1px 3px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: inset -1px -1px 3px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: inset -1px -1px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+/*just icons style*/
+.uw-social-widget.uw-social-just-icons li a {
+    background: transparent;
+    color: #333 !important;
+    border: 0;
+}
+/*behance*/
+.uw-social-widget.uw-social-just-icons li.social-widget-behance a:hover { color: #005CFF !important; }
+/*codepen*/
+.uw-social-widget.uw-social-just-icons li.social-widget-codepen a:hover { color: #4d4d4d !important; }
+/*deviantart*/
+.uw-social-widget.uw-social-just-icons li.social-widget-deviantart a:hover { color: #506256 !important; }
+/*dribbble*/
+.uw-social-widget.uw-social-just-icons li.social-widget-dribbble a:hover { color: #fa4086 !important; }
+/*facebook*/
+.uw-social-widget.uw-social-just-icons li.social-widget-facebook a:hover { color: #37589b !important; }
+/*flickr*/
+.uw-social-widget.uw-social-just-icons li.social-widget-flickr a:hover { color: #fa4086 !important; }
+/*github*/
+.uw-social-widget.uw-social-just-icons li.social-widget-github a:hover { color: #60b044 !important; }
+/*google*/
+.uw-social-widget.uw-social-just-icons li.social-widget-google-plus a:hover { color: #de5a49 !important; }
+/*instagram*/
+.uw-social-widget.uw-social-just-icons li.social-widget-instagram a:hover { color: #3F729B !important; }
+/*linkedin*/
+.uw-social-widget.uw-social-just-icons li.social-widget-linkedin a:hover { color: #3399CC !important; }
+/*pinterest*/
+.uw-social-widget.uw-social-just-icons li.social-widget-pinterest a:hover { color: #CB2027 !important; }
+/*tumblr*/
+.uw-social-widget.uw-social-just-icons li.social-widget-tumblr a:hover { color: #2C4762 !important; }
+/*twitter*/
+.uw-social-widget.uw-social-just-icons li.social-widget-twitter a:hover { color: #46d4fe !important; }
+/*skype*/
+.uw-social-widget.uw-social-just-icons li.social-widget-skype a:hover { color: #00AFF0 !important; }
+/*stack overflow*/
+.uw-social-widget.uw-social-just-icons li.social-widget-stack-overflow a:hover { color: #fe7a15 !important; }
+/*soundcloud*/
+.uw-social-widget.uw-social-just-icons li.social-widget-soundcloud a:hover { color: #F76700 !important; }
+/*youtube*/
+.uw-social-widget.uw-social-just-icons li.social-widget-youtube-play a:hover { color: #C4302B !important; }
+/*reddit*/
+.uw-social-widget.uw-social-just-icons li.social-widget-reddit a:hover { color: #ff4500 !important; }
+/*rss*/
+.uw-social-widget.uw-social-just-icons li.social-widget-rss a:hover { color: #ff7900 !important; }
+/*vimeo*/
+.uw-social-widget.uw-social-just-icons li.social-widget-vimeo-square a:hover { color: #1ab7ea !important; }
+/*vine*/
+.uw-social-widget.uw-social-just-icons li.social-widget-vine a:hover { color: #00bf8f !important; }
+
+/*transition*/
+.uw-social-widget.rotate a:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.uw-social-widget.zoomout a:hover {
+	-webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+.uw-social-widget.float a:hover {
+	-webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+	transform: translateY(-3px);
+}

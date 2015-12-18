@@ -1,0 +1,115 @@
+/*--------------------------------------------------------------
+Weather
+--------------------------------------------------------------*/
+.uw_weather_widget .uw-weather-wrap {
+    clear: both;
+    overflow: hidden;
+}
+
+.uw_weather_widget .uw-weather-icon:before {
+	font-family: 'MeteoconsRegular';
+    content: attr(data-icon);
+}
+
+.uw_weather_widget .uw-weather-icon {
+    position: relative;
+    margin: 0 auto;
+    font-size: 50px;
+    line-height: 60px;
+    height: 60px;
+}
+
+.uw_weather_widget .uw-weather-icon i {
+    display: block;
+    line-height: 0;
+}
+
+.uw_weather_widget .uw-weather-current-temp {
+    padding: 10px 0;
+    width: 35%;
+    float: left;
+    font-size: 44px;
+    line-height: 1em;
+    font-weight: 300;
+    text-align: center;
+    color: #666;
+}
+
+.uw_weather_widget .uw-weather-current-temp sup {
+    font-size: 24px;
+    padding-left: 3px;
+}
+
+.uw_weather_widget .uw-weather-todays-stats {
+    float: right;
+    padding: 14px 5%;
+    line-height: 1.4em;
+    width: 65%;
+}
+
+.uw_weather_widget .uw_weather_name,
+.uw_weather_widget .uw_weather_desc,
+.uw_weather_widget .uw-weather-forecast-day-temp {
+    color: #333;
+}
+
+.uw_weather_widget .uw_weather_name {
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 10px;
+    font-family: arial, serif;
+}
+
+.uw_weather_widget .uw_weather_desc {
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.uw_weather_widget .uw-weather-forecast {
+    border-top: solid 1px #e0e0e0;
+    padding: 20px 10px 0;
+    overflow: hidden;
+    clear: both;
+}
+
+.uw_weather_widget .uw-weather-forecast-day {
+    width: 100%;
+    margin: 0 1%;
+    float: left;
+    text-align: center;
+    font-weight: 400;
+}
+
+.uw_weather_widget .uw_weather_days_2 .uw-weather-forecast-day {
+    width: 48%;
+}
+
+.uw_weather_widget .uw_weather_days_3 .uw-weather-forecast-day {
+    width: 31%;
+}
+
+.uw_weather_widget .uw_weather_days_4 .uw-weather-forecast-day {
+    width: 23%;
+}
+
+.uw_weather_widget .uw_weather_days_5 .uw-weather-forecast-day {
+    width: 18%;
+}
+
+.uw_weather_widget .uw-weather-forecast-day-temp {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.uw_weather_widget .uw-weather-forecast-day-temp sup {
+    font-size: 11px;
+    padding-left: 2px;
+}
+
+.uw_weather_widget .uw-weather-forecast-day-abbr {
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-top: 3px;
+    padding-right: 4px;
+}

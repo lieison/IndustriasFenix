@@ -1,0 +1,165 @@
+/*--------------------------------------------------------------
+Calendar
+--------------------------------------------------------------*/
+.uw_calendar_widget #wp-calendar {
+	position: relative;
+    width: 100%;
+	font-size: 12px;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 0;
+	border: 0;
+}
+
+.uw_calendar_widget #wp-calendar caption {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	padding-bottom: 10px;
+	padding: 0 0 10px 0;
+	background-color: transparent;
+	color: #222;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.uw_calendar_widget #wp-calendar td,
+.uw_calendar_widget #wp-calendar th {
+    text-align: center;
+}
+
+.uw_calendar_widget #wp-calendar th {
+	font-family: 'Open Sans';
+	font-size: 12px;
+	font-weight: 400;
+	padding: 13px 0px 14px 0px;
+	background-color: transparent;
+	color: #444;
+}
+
+.uw_calendar_widget #wp-calendar tbody td,
+.uw_calendar_widget #wp-calendar tbody td:hover,
+.uw_calendar_widget #wp-calendar tbody td.pad:hover {
+	background: transparent;
+}
+
+.uw_calendar_widget #wp-calendar tbody td {
+    font-family: 'Open Sans';
+	font-size: 12px;
+	color: #888;
+	width: 14.2857%;
+	height: 30px;
+	line-height: 30px;
+	font-weight: 400;
+	padding: 5px 0 0 0;
+	border: 0;
+	vertical-align: middle;
+}
+
+.uw_calendar_widget #wp-calendar tbody a,
+.uw_calendar_widget #wp-calendar tbody #today {
+	font-weight: 600;
+}
+
+.uw_calendar_widget #wp-calendar tbody #today {
+	color: #111;
+}
+
+.uw_calendar_widget #wp-calendar tfoot td {
+	background-color: transparent;
+	border: 0;
+}
+
+.uw_calendar_widget #wp-calendar tfoot tr td {
+	position: absolute;
+	top: -10px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: transparent !important;
+	font-size: 11px;
+	padding-top: 10px;
+	text-transform: uppercase;
+}
+
+.uw_calendar_widget #wp-calendar tfoot #next {
+	right: 0;
+}
+
+/*style 1*/
+.uw_calendar_widget .uw-calendar-style1 #wp-calendar caption {
+	border-width: 0 0 3px 0;
+	border-style: solid;
+	border-color: #e0e0e0;
+}
+
+.uw_calendar_widget .uw-calendar-style1 #wp-calendar th {
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	border-color: #e0e0e0;
+}
+
+.uw_calendar_widget .uw-calendar-style1 #wp-calendar tbody {
+    border-width: 0 0 3px 0;
+	border-style: solid;
+	border-color: #e0e0e0;
+}
+
+.uw_calendar_widget .uw-calendar-style1 #wp-calendar tbody tr:last-child td {
+    padding-bottom: 10px;
+}
+
+.uw_calendar_widget .uw-calendar-style1 #wp-calendar tfoot tr td a {
+	border-bottom: 1px solid;
+}
+
+.uw_calendar_widget .uw-calendar-style1 #wp-calendar tfoot tr td a:hover {
+	border-bottom-style: dashed;
+}
+
+/*style 2*/
+.uw_calendar_widget .uw-calendar-style2 #wp-calendar caption {
+	border-width: 0;
+}
+
+.uw_calendar_widget .uw-calendar-style2 #wp-calendar th {
+	background-color: #333;
+	color: #fff;
+	border: 1px solid #e0e0e0;
+	font-weight: 600;
+	padding: 7px 0;
+}
+
+.uw_calendar_widget .uw-calendar-style2 #wp-calendar tbody {
+    border-width: 0;
+}
+
+.uw_calendar_widget .uw-calendar-style2 #wp-calendar tbody td {
+	background: #f6f6f6;
+	border: 1px solid #e0e0e0;
+	color: #999;
+	padding: 7px 0;
+}
+
+.uw_calendar_widget .uw-calendar-style2 #wp-calendar tbody td:hover {
+	background: #fff;
+}
+
+.uw_calendar_widget .uw-calendar-style2 #wp-calendar tbody td.pad,
+.uw_calendar_widget .uw-calendar-style2 #wp-calendar tbody td.pad:hover {
+	background: transparent;
+}
+
+/*style 3*/
+.uw_calendar_widget .uw-calendar-style3 #wp-calendar caption {
+	border-width: 0;
+}
+
+.uw_calendar_widget .uw-calendar-style3 #wp-calendar th {
+	background-color: #eee;
+	font-weight: 600;
+	color: #111;
+	padding: 8px 0;
+}
+
+.uw_calendar_widget .uw-calendar-style3 #wp-calendar tbody {
+    border-width: 0;
+}

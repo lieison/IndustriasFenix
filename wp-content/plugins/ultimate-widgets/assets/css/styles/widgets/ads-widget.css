@@ -1,0 +1,29 @@
+/*--------------------------------------------------------------
+Ads
+--------------------------------------------------------------*/
+.uw_ads_widget a.large {
+	float: none;
+	width: 100%;
+}
+
+.uw_ads_widget a.small {
+	width: 48%;
+}
+
+.uw_ads_widget a {
+    display: block;
+    float: left;
+    margin-top: 4%;
+}
+
+.uw_ads_widget a:first-child {
+    margin-top: 0;
+}
+
+.uw_ads_widget a img {
+    width: 100%;
+}
+
+.uw_ads_widget a.righter {
+    float: right;
+}
